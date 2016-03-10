@@ -1,0 +1,21 @@
+	body{
+		
+	}
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	#logo{
+		width: 200px;
+	}
+	h1,h2{
+		font-family : helvetica;
+		font-size : 3em;
+	}
+	iframe{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
