@@ -1,5 +1,9 @@
 	body{
-		
+		background-color: #2F4F4F;
+		left:50%;
+		margin-left:-375px; /* metade da largura fictícia */
+		position:absolute;
+		width:750px;
 	}
 	img {
 		display: block;
@@ -10,7 +14,24 @@
 	#logo{
 		width: 200px;
 	}
+	#esmaecer{
+		color: #8B8970;
+	}
+	#npassos{
+		font-family : arial;
+		font-size: 20px;
+		background: #0000FF;
+		color: #FFFAFA;
+	}
+	p{
+		font-family: verdana;
+		text-align: justify;
+	}
+	strong{
+		color: #191970;
+	}
 	h1,h2{
+		color: #191970;
 		font-family : helvetica;
 		font-size : 3em;
 	}
@@ -19,3 +40,23 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	a:link {
+		color: #000080;
+		text-decoration: underline ;	
+	}
+	a:visited {
+		color: #808080;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #FF0000;
+		text-decoration: underline;
+	}
+	a:active{
+		color: #800000;
+		text-decoration: none;
+	}
+	a[href^="http"]:before {
+		content: url(img/globo.png);
+	
+}
